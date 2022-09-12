@@ -1,0 +1,159 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* position: relative; */
+}
+
+h1, h2, p {
+  color: #4c505a;
+}
+
+/* navbar */
+nav {
+  background-color: #c7d2df;
+}
+
+#navbarSupportedContent {
+  background-color: #c7d2df;
+  text-align: center;
+  z-index: 1;
+}
+
+.container-fluid {
+  height: 50px;
+}
+
+.nav-container {
+  padding: 0 100px;
+}  
+
+.nav-logo {
+  color: #ffffff;
+  background-color: #8291a6;
+  border-radius: 5px;
+  border-style: none;
+  width: 90px;
+  height: 25px;
+  font-size: 12px;
+}
+
+/* klasy nav-item oraz nav-item-active byłyby zmieniane przy pomocy Vue.js ( :class="isActive") gdzie isActive to byłaby funkcja zwracająca odpowiednią odpowiednią klasę css */
+.nav-item {
+  padding: 0px 15px;
+  height: 50px;
+}
+
+.nav-item-active {
+  padding: 0px 15px;
+  background-color: #e5e9f2;
+  height: 50px;
+}
+
+.nav-link {
+  color: #48515e;
+  font-size: 14px;
+  padding-top: 14px;
+}
+
+.nav-cart {
+  color: #ffffff;
+  background-color: #48515e;
+  border-radius: 5px;
+  border-style: none;
+  width: 80px;
+  height: 30px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/* middle section */
+#middle {
+  padding: 20px 100px;
+  padding-bottom: 200px;
+}
+
+/*Left side - grey box */
+.grey-box {
+  background-color: #c6d2de;
+  border-radius: 10px;
+  height: 450px;
+}
+
+/* Right side - articles */
+.articles {
+  padding: 0 0 0 40px;
+}
+
+.card-body {
+  padding: 30px 0;
+}
+
+.card-body h3 {
+  margin-bottom: 30px;
+}
+
+.middle-card {
+  padding: 0 40px;
+}
+
+/* footer */
+footer ul {
+  list-style-type: none;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer p {
+  color: #ffffff;
+}
+
+footer .btn {
+  width: 35%;
+  padding: 7px 0;
+}
+
+.sticky-footer {
+  background-color: #48515e;
+  padding-top: 50px;
+  position: fixed;
+  height: 200px;
+  bottom: 0;
+  width: 100%;
+}
+
+.small-grey-box {
+  background-color: #c6d2de;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.input-email {
+  max-width: 60%;
+  padding-bottom: 8px;
+}
+
+/* media queries */
+@media only screen and (max-width: 992px) {
+  .nav-cart {
+    margin-bottom: 15px;
+  }
+
+  .sticky-footer {
+    position: relative;
+    height: 500px;
+  }
+
+  .articles {
+    padding: 0;
+  }
+
+  .middle-card {
+    padding: 0;
+  }
+
+  .card {
+   margin: 0 30px;
+  }
+}
