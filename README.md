@@ -1,5 +1,5 @@
 # Recruitment Task: Boostrap page layout
-
+ 
 One of the recruiting companies gave me the task to recreate the website layout based on a photo.
 I spent about 3 hours on this task.
 the result of my work: https://zizoko1337.github.io/Task-Boostrap_page_layout/
